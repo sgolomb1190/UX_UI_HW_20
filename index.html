@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UX/UI Homework 20</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<boby>
+ <!-- Image and Nav -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="images/SG logo-01.png" width="100" alt="">
+        </a>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+          </ul>
+    </nav>
+
+   <!--HERO-->
+   <img src="images/USDA mock up.png" class="img-fluid" alt="USDA mock-up">
+
+   <!--TITLE-->
+   <div class="container p-5" class="mx-auto" style="width: 70%">
+    <div class="title col">
+      <h1 class="text-center">GOVERNMENT WEBSITE RESPONSIVE REDESIGN</h1>
+      <p class="text-center lead">This responsive redesign of the United States Department of Agriculture website focuses on improving the information architecture of the existing website, while updating the user interface design to be more modern and clear.</p>
+      <p class="text-center font-weight-bold">My role: UX/UI Designer</p>
+      <p class="text-center font-weight-bold">Tools: Miro, Figma, Adobe Xd, Adobe Illustrator, Invision</p>
+      <div class="w-100"></div>
+    </div>
+  </div>
+  
+
+   <!--PROBLEM/SOLUTION-->
+
+   <div class="container pb-5">
+    <h2 class="pb-5">PROJECT OVERVIEW</h2>
+    <div class="row">
+      <div class="col">
+        <h3 class="pb-3">Problem</h3>
+        <p class="lead">
+          The USDA website has an encyclopedic amount of information, yet users struggle to find the information they need.
+        <p>The current USDA website is a hub for information about farming, marketing and selling food products, rural development, and more. It attempts to collate the resources of over 20 sub-agencies within the organization. This makes it challenging for users to access the services they need.</p>
+      </div>
+      <div class="col">
+        <h3 class="pb-3">Opportunity</h3>
+        <p class="lead">How might we improve the user interface and information architecture of the USDA website to improve the experience of its users?</p>
+        <p>A responsive redesign that improves the information architecture of the existing website, while updating the UI design to be more modern and clear, will make it easier for users of the USDA’s website to find the information they need.</p>
+      </div>
+      <div class="w-100"></div>
+    </div>
+  </div>
+
+  <!--CURRENT SITE ANALYSIS-->
+
+  <div class="container p-5">
+    
+    <div class="row">
+      <div class="col">
+        <img src="images/heuristic.jpeg" class="img-fluid" > 
+      </div>
+      <div class="col">
+        <h2 class="pb-3">ANALYZING THE CURRENT WEBSITE</h2>
+        <p>The current USDA website attempts to provide both timely information and serve as an educational resource hub. As an organization, the USDA encompasses many sub-agencies that offer direct services.</p>
+        <h3 class="pb-3">HEURISTIC ANALYSIS FINDINGS</h3>
+        <p>Through conducting a heuristic analysis, we identified the following issues with the current website:</p>
+        <li>Appearance: The layout and design are clear, but the iconography and imagery could be less generic.</li>
+        <li>Content: The information above the fold is timely, but the real estate on the page could be used to showcase specific services.</li>
+        <li>Navigation: While the primary navigation is rather sparse, as you get into topics or navigate to a sub-agency site, you’re taken off of the USDA website and there’s no system (such as breadcrumbs) for you to identify where you are within the site or easily navigate back to a previously accessed pages.</li>
+        <li>Functionality: The main site functions well. After defining a user path related to finding information about Organics, the “Organic Integrity Database” exhibited some functionality flaws in the search and filter tool.</li>
+      </div>
+      <div class="w-100"></div>
+    </div>
+  </div>
+
+  <!--USER RESEARCH-->
+
+  <div class="container p-5 bg-dark text-white">
+    
+    <div class="row">
+      <div class="col">
+        <h2 class="pb-3">USER RESEARCH</h2>
+        <p>Before launching into usability tests, we determined a user path for someone that would be seeking a service provided by the USDA. A common association with the USDA is their Organics program, so we developed a persona for a farmer and food producer who would be looking for information about how to apply for organic certification.</p>
+        <h3 class="pb-3">USER PATH</h3>
+        <li>Starts on usda.gov </li>
+        <li>Navigates to Topics → Organic</li>
+        <li>Selects Getting Organic Certified
+          <li>Link directs to Becoming a Certified Operation</li>
+        </li>
+        <li>Selects USDA-accredited certifying agent
+          <li>Link directs to Organic Certifying Agents</li>
+        </li>
+        <li>Clicks Organic Certified Locator button
+          <li>Link directs to organic.ams.usda.gov</li>
+        </li>
+        <li>Searches by state: New York</li>
+        <li>Views results</li>
+      </div>
+      <div class="col">
+        <h3 class="pb-3">WIREFLOW</h3>
+        <img src="images/wireflow.jpeg" class="img-fluid"> 
+      </div>
+      <div class="w-100"></div>
+    </div>
+  </div>
+  
+<!--USABILITY TESTING-->
+
+<div class="container p-5 bg-dark text-white">
+  <div class="row align-items-start">
+    <div class="col">
+      <h2>USABILITY TESTING</h2>
+    </div>
+    <div class="col">
+      <h3 class="pb-3">GOALS</h3>
+      <p>We conducted five usability tests with the following aims:</p>
+      <ul class="usability-testing">
+        <li>Understand the current process a user goes through to obtain information and apply for organic certification.</li>
+        <li>Identify pain points and barriers to completing the process of applying for organic certification.</li>
+        <li>Assess if information on how to get organic certified is perceived as organized or intuitive.</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h3 class="pb-3">TASKS</h3>
+      <p>Testers were asked to complete two consecutive tasks:      </p>
+      <ol class="usability-testing">
+        <li>Find out information on how to start the process of becoming organic certified.</li>
+        <li>Find out where and how to complete the application to become organic certified.</li>
+    </div>
+  </div>
+</div>
+
+  <!--Wireframes-->
+
+<div class="container p-5">
+  <div class="row">
+    <div class="col">
+      <h2 class="pb-3">WIREFRAME</h2>
+      <p>The wireframes were designed to address some of the most prominent issues with the current website that were identified in the usability testing.</p>
+      <br>
+      <p>Overall, design choices such as a full screen dropdown for the primary navigation and the inclusion of vertical and horizontal scrolling were to ensure a consistent experience between desktop and mobile.</p>
+    </div>
+
+    <div class="col pb-5">
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Appearance
+              </button>
+            </h5>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              Creating a clearer navigation path and content hierarchy</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Content
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              Streamlining content and reducing duplicate information.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Navigation
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              Ensuring the homepage hosts useful information
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Functionality
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                Improving the design and functionality of interactive features
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container p-5">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/wireframe_1.gif" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/wireframe_2.gif" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/wireframe_mobile_1.gif" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/wireframe_mobile_2.gif" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  </div>
+
+<!--UI STYLE-->
+
+<div class="container p-5 bg-dark text-white">
+  <div class="row">
+    <div class="col">
+    <h3>UI STYLE</h3>
+    </div>
+    <div class="col">
+      <p>When the USDA was established during the Lincoln administration, it was referred to as “The People’s Department” — that remains a fitting moniker. The USDA’s updated UI is designed to be modern and simple, while maintaining its approachability. The style of the website prioritizes clean lines to delineate areas of content. While used sparingly, graphics and the carrot motif are intended as visual flare, and photographs showcase the American heartland.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="images/ui_1.jpeg">
+            <img src="images/ui_1.jpeg" alt="Lights" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="images/ui_2.jpeg">
+            <img src="images/ui_2.jpeg" alt="Nature" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="images/ui_3.jpeg">
+            <img src="images/ui_3.jpeg" alt="Fjords" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<!--HI-FI PROTOTYPE-->
+
+<div class="container p-5">
+  <div class="row">
+    <div class="col">
+    <h3>TESTING AND ITERATIONS</h3>
+    </div>
+    <div class="col">
+      <p>I conducted three rounds of testing, one with the wireframe, and two with the high fidelity design. Each round of testing highlighted a few key issues mainly related to functionality and terminology. Testers during the first and second round identified some issues with having both a vertical and horizontal scroll function; a design choice that was made for consistency between the desktop and mobile experiences. Testers during the second round responded positively to the information hierarchy, but had feedback on the UI design and terminology. In the third round of testing, feedback was minimal and testers found it easy to navigate through the site to the information they were seeking!</p>
+    </div>
+  </div>
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="images/desktop_hi_fidelity.gif" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/mobile_hi_fidelity.gif" alt="Second slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!--SUMMARY-->
+  <div class="container p-5">
+    <div class="row">
+      <div class="col">
+      <h3>SUMMARY</h3>
+      </div>
+      <div class="col">
+        <p>My redesign of the USDA website presented an opportunity to freshen up and modernize an old institution. While it seems that the current website was updated not that long ago to reflect more recent UI trends, there are still some structural issues that may be hard for the agency to address without completely overhauling the whole USDA system website, and sub-agency sites too.</p>
+        <br>
+        <p>In future iterations, I would like to further address some of the feedback I received on terminology. For instance, “organics” by the USDA’s definition is often regarding how a product or farming operation is marketed or classified — so the Agricultural Marketing Services agency holds information about organics. That might be confusing to someone who thinks of “organic” as a farming technique and not a marketing strategy.</p>
+        <br>
+        <p>I would also be interested in exploring an interactive element or navigational system that directs users towards content based on audience type, such as “Farmer” “Nutritionist” “Educator” “Parent”…etc. So that a user’s whole engagement with the website is more customized.</p>
+      </div>
+    </div>
+
+  </div>
+
+
+  
+</div>
+
+</div>
+  
+</boby>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</html>
